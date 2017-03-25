@@ -1,5 +1,5 @@
 # FavRestaurantApp
-This is a ingle page app in Android that displays information about my favorite Indian restaurant in Seattle
+This is a single page app in Android that displays information about my favorite Indian restaurant in Seattle
 
 It lists the following:
   1. Business Name
