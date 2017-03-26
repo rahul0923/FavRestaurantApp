@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/nirmals"
+        android:layout_marginTop="20dp"
+        android:background="#000"
+        android:layout_alignParentTop="true"
+        android:id="@+id/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:text="My Fav Indian Restaurant"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logo">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_phone_black_24dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/phone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="206-551-7692"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="64dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_email_black_24dp"
+            android:layout_below="@id/phone"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/email"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="info@nirmalseattle.com"
+            android:layout_below="@id/phone"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="64dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_public_black_24dp"
+            android:layout_below="@id/email"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/web"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="www.nirmalseattle.com"
+            android:layout_below="@id/email"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="64dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_location_black_24dp"
+            android:layout_below="@id/web"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/addr"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="106 Occidental Ave S"
+            android:layout_below="@id/web"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="64dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:id="@+id/addr1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seattle WA USA 98104"
+            android:layout_below="@id/addr1"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="64dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:id="@+id/addr2"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_access_time_black_24dp"
+            android:layout_below="@id/addr2"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:id="@+id/hours"/>
+        <TextView
+            android:id="@+id/lunchText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/addr2"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="18dp"
+            android:text="Lunch Hours"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday - Friday: 11:00 am to 2pm"
+            android:layout_below="@id/lunchText"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="64dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:id="@+id/weekday"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturday (Brunch): 11:00 am to 2pm"
+            android:layout_below="@id/weekday"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="64dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:id="@+id/weeknd"
+            />
+        <TextView
+            android:id="@+id/dinnerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/weeknd"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="5dp"
+            android:text="Dinner Hours"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monday - Saturday: 5:30 pm to 10pm"
+            android:layout_below="@id/dinnerText"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="64dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:id="@+id/dinnerTime"
+            />
+        <TextView
+            android:id="@+id/closedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dinnerTime"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="5dp"
+            android:text="Closed on national holidays"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
+        <TextView
+            android:id="@+id/descText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/closedText"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="16dp"
+            android:text="At Nirmal's we believe that dining is more than just create food; it is the whole experience! Great food, great ambiance, excellent service and sense of community are our mission. We embrace our new community and surroundings, and we welcome you to join us as we explore new possibilities in Indian cuisine."
+            android:textAppearance="?android:textAppearanceSmall"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
